@@ -26,6 +26,7 @@ int main() {
             const int taxedAmount = employeeSalaries[i] * taxPercentage / 100;
             cout << "Tax = " << taxPercentage << "% of $" << employeeSalaries[i] << " = $" << taxedAmount;
         } else {
+            // Not qualified for tax
             cout << "This employee does not qualify for tax.";
         }
         
